@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Abdullah (Ahyan) | Expert Web & App Developer | AI & Script Master</title>
+    <meta name="title" content="Md. Abdullah (Ahyan) | Full-Stack Developer & AI Specialist">
+    <meta name="description" content="Md. Abdullah (Ahyan) is a professional Website and App Developer, Script Master, and AI Expert. Founder of Ahyan Creations LTD, building future-gen AI and software solutions.">
+    <meta name="keywords" content="Md. Abdullah, Ahyan, Website Developer Bangladesh, App Developer, AI Master, Script Master, Ahyan Creations LTD, Python Expert, LLM Developer, Full Stack Developer Mobile">
+    <meta name="author" content="Md. Abdullah (Ahyan)">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://youracl.github.io/">
+    <meta property="og:title" content="Md. Abdullah (Ahyan) | Tech Innovator & Developer">
+    <meta property="og:description" content="Expert in Web Development, App Development, and AI Scripting. Leading the tech revolution with Ahyan Creations LTD.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/iTsAhyan/youracl.github.io/main/profile.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Md. Abdullah (Ahyan)",
+      "url": "https://youracl.github.io/",
+      "jobTitle": "CEO & Lead Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Bangladesh"
+      },
+      "description": "Expert Website Developer, App Developer, Script Master, and AI Specialist.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Ahyan Creations LTD"
+      },
+      "knowsAbout": ["Web Development", "App Development", "Artificial Intelligence", "Scripting", "Python", "Automation"]
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #6d28d9;
+            --accent: #a78bfa;
+            --bg: #030712;
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --text: #f3f4f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, #1e1b4b 0%, #030712 100%);
+            padding: 0 20px;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid var(--primary);
+            box-shadow: 0 0 40px rgba(109, 40, 217, 0.4);
+            margin-bottom: 25px;
+            object-fit: cover;
+            animation: fadeInDown 1s ease;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 10px 0;
+            background: linear-gradient(to right, #ffffff, var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fadeInUp 1s ease;
+        }
+
+        .roles {
+            font-size: 1.2rem;
+            color: var(--accent);
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        section {
+            margin-bottom: 100px;
+            opacity: 0;
+            transform: translateY(30px);
+                  transition: all 0.8s ease-out;
+        }
+
+        h2 {
+            font-size: 2.2rem;
+            border-left: 6px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        /* কার্ড গ্রিড এবং দক্ষতা */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 35px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .card:hover {
+            transform: translateY(-12px);
+            border-color: var(--primary);
+            background: rgba(109, 40, 217, 0.08);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .card h3 {
+            color: var(--accent);
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+        }
+
+        .skill-tag {
+            display: inline-block;
+            background: rgba(109, 40, 217, 0.2);
+            padding: 5px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            margin: 5px 2px;
+            color: var(--accent);
+        }
+
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, var(--primary), var(--accent));
+            color: white;
+            padding: 16px 40px;
+            border-radius: 60px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 10px 25px rgba(109, 40, 217, 0.4);
+            transition: 0.3s;
+        }
+
+        .btn:hover { transform: scale(1.05); filter: brightness(1.1); }
+
+        footer {
+            text-align: center;
+            padding: 80px 20px;
+            background: #010409;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+
+        @media (max-width: 600px) { h1 { font-size: 2.6rem; } .roles { font-size: 1rem; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://raw.githubusercontent.com/iTsAhyan/youracl.github.io/main/profile.png" alt="Md. Abdullah (Ahyan) Portrait" class="profile-img">
+    <h1>Md. Abdullah (Ahyan)</h1>
+    <div class="roles">Website Developer • App Developer • Script & AI & Automation Master</div>
+    <p class="tagline">Founder & CEO, Ahyan Creations LTD</p>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>আমার দক্ষতা ও লক্ষ্য</h2>
+        <p>আমি <strong>Md. Abdullah (Ahyan)</strong>, একজন মাল্টি-ডিসিপ্লিনারি ডেভেলপার। আমি একই সাথে প্রফেশনাল ওয়েবসাইট এবং অ্যান্ড্রয়েড অ্যাপ ডেভেলপমেন্টে দক্ষ। এছাড়াও আমি পাইথন স্ক্রিপ্টিং এবং আর্টিফিশিয়াল ইন্টেলিজেন্স (AI) নিয়ে কাজ করি, বিশেষ করে লার্জ ল্যাঙ্গুয়েজ মডেল (LLM) ট্রেনিং এবং অটোমেশন আমার প্রধান শক্তির জায়গা। <strong>Ahyan Creations LTD</strong> এর মাধ্যমে আমি ডিজিটাল সমস্যার স্মার্ট সমাধান তৈরি করছি।</p>
+        
+        <div style="margin-top: 20px;">
+            <span class="skill-tag">Web Dev</span>
+            <span class="skill-tag">App Dev</span>
+            <span class="skill-tag">AI Training</span>
+            <span class="skill-tag">Scripting</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Automation</span>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>আমি যা যা করি</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>Website Development</h3>
+                <p>আধুনিক, রেসপনসিভ এবং দ্রুত লোড হওয়া ওয়েবসাইট তৈরি করি। ই-কমার্স থেকে পোর্টফোলিও—সব ধরণের ওয়েব সলিউশন এখানে পাবেন।</p>
+            </div>
+            <div class="card">
+                <h3>App Development</h3>
+                <p>অ্যান্ড্রয়েড প্ল্যাটফর্মের জন্য হাই-পারফরম্যান্স মোবাইল অ্যাপ্লিকেশন ডিজাইন ও ডেভেলপ করি।</p>
+            </div>
+            <div class="card">
+                <h3>Script & AI Mastery</h3>
+                <p>অটোমেশন স্ক্রিপ্ট তৈরি এবং এআই মডেল (যেমন Aira, Kittu) ট্রেনিং এর মাধ্যমে আপনার কাজকে করে তুলি বুদ্ধিদীপ্ত।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>প্রধান প্রজেক্টসমূহ (#Innovation)</h2>
+        <div class="card-grid">
+            <div class="card">
+                <h3>AutoLiveYt</h3>
+                <p>একটি অ্যাডভান্সড YouTube live stream সিস্টেম। এটি একজন ইউটিউবার এর স্বপ্ন পূরণের হাতিয়ার।</p>
+            </div>
+            <div class="card">
+                <h3>Kittu</h3>
+                <p>শিশুদের জন্য তৈরি বিশেষ শিক্ষামূলক এআই বন্ধু। এটি খেলার ছলে বুদ্ধিবৃত্তি বিকাশে সহায়তা করে।</p>
+            </div>
+            <div class="card">
+                <h3>AutoTakler</h3>
+                <p>পেশাদার ব্যবসায়ী এবং সাধারণ মানুষের অটো এআই রিপ্লাই সিস্টেম। এছাড়াও বাংলাদেশের ট্যালেন্টদের জন্য একটি GetHelpBd নির্ভরযোগ্য প্ল্যাটফর্ম।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="text-align: center;">
+        <h2>সরাসরি যোগাযোগ করুন</h2>
+        <p>আপনার কোনো প্রজেক্ট আইডিয়া থাকলে বা আমাকে হায়ার করতে চাইলে নক দিন:</p>
+        <br>
+        <a href="https://t.me/AhyanSupport" class="btn">টেলিগ্রামে মেসেজ দিন</a>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 <strong>Ahyan Creations LTD</strong>. All rights reserved.</p>
+    <p>Top Rated Website & App Developer in Bangladesh</p>
+    <div style="font-size: 11px; opacity: 0.4; margin-top: 10px;">
+        #MdAbdullah #Ahyan #WebDeveloper #AppDeveloper #AIMaster #ScriptingExpert #AutomotionsExpert #Bangladesh
+    </div>
+</footer>
+
+<script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section').forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>
+
